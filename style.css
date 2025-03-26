@@ -16,8 +16,89 @@ body {
 }
 
 #container {
-    width: 400px;
+    width: 800px;
     background-color: #fff;
     margin: 20px auto;
     padding: 30px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+p {
+    color: gray;
+    margin-top: 10px;
+}
+
+/**Personal Informantion section **/
+h2 {
+    margin: 10px 0;
+}
+
+.form-row {
+    margin: 10px 0;
+}
+
+.form-element {
+    margin: auto;
+    margin-right: 10px;
+    display: inline-block;
+    width: 48%;
+}
+
+label,
+input,
+select {
+    display: block;
+}
+
+input[type=text],
+input[type=email],
+input[type=file],
+input[type=tel],
+input[type=number],
+input[type=date],
+input[type=range],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+hr {
+    border: 1px dashed #f7f5f5;
+}
+
+input[type=file] {
+    border: 2px dashed #aaa;
+
+}
+
+button {
+    background-color: red;
+}
+
+.radio {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.radio-group {
+    margin-top: 10px;
+}
+
+.radio input,
+.radio label {
+    display: inline-block;
 }

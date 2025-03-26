@@ -22,27 +22,27 @@
             <section>
                 <h2>Personal Information</h2>
                 <!--first row start-->
-                <div>
-                    <div>
-                        <label>First Name</label>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="">First Name</label>
                         <input type="text">
                     </div>
 
-                    <div>
+                    <div class="form-element">
                         <label for="">Last Name</label>
                         <input type="text">
                     </div>
                 </div>
                 <!--first row end-->
                 <!--second row start-->
-                <div>
-                    <div>
-                        <label>Email Address</label>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="">Email Address</label>
                         <input type="email">
                     </div>
 
 
-                    <div>
+                    <div class="form-element">
                         <label for="">Phone NO</label>
                         <input type="tel">
                     </div>
@@ -50,12 +50,120 @@
                 <!--second row end-->
                 <!--third row start-->
                 <div>
-                    <div>
-                        <label>Current Address</label>
+                    <div class="form-element w-full">
+                        <label for="">Current Address</label>
                         <textarea></textarea>
                     </div>
                 </div>
                 <!--third row end-->
+            </section>
+            <hr />
+            <section>
+                <h2>Professional Information</h2>
+                <div class="form-row">
+                    <div class="form-element w-full">
+                        <label for="">Position Applied</label>
+                        <select>
+                            <option>Frontend Developer</option>
+                            <option>Backend Developer</option>
+                            <option>fullstack Developer</option>
+                            <option>Cloud architect</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element w-full">
+                        <label for="Experience">Years of Experience</label>
+                        <input type="number">`
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element ">
+                        <label for="upload">Upload resume(PDF only)</label>
+                        <input type="file" />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element w-full">
+                        <label for="employment type">Employment Type</label>
+                        <div class="radio-group">
+                            <div class="radio">
+                                <label for="">Full Time</label>
+                                <input type="radio" name="employment" id="full-time">
+                            </div>
+                            <div class="radio">
+                                <label for="">part Time</label>
+                                <input type="radio" name="employment" id="part-time">
+                            </div>
+                            <div class="radio">
+                                <label for="">Full Stack</label>
+                                <input type="radio" name="employment" id="full-stack">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element w-full">
+                        <label for="">Skills(Check all that apply)</label>
+                        <div class="radio-group">
+                            <div class="radio">
+                                <label for="">HTML</label>
+                                <input type="checkbox" id="full-time">
+                            </div>
+                            <div class="radio">
+                                <label for="">CSS</label>
+                                <input type="checkbox" id="part-time">
+                            </div>
+                            <div class="radio">
+                                <label for="">Java Script</label>
+                                <input type="checkbox" id="full-stack">
+                            </div>
+                            <div class="radio">
+                                <label for="">React</label>
+                                <input type="checkbox" id="part-time">
+                            </div>
+                            <div class="radio">
+                                <label for="">Node js</label>
+                                <input type="checkbox" id="full-stack">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Additional Information</h2>
+                <div class="form-row">
+                    <div>
+                        <div class="form-element w-full">
+                            <label for="">Available Start Date</label>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element w-full">
+                        <label for="">Expected Salary Range</label>
+                        <input type="range">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element w-full">
+                        <label for="">additional Comments</label>
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <input type="checkbox">
+                        <label for="">i agree to the terms and conditions</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <button>reset form</button>
+                        <button>Submit Form</button>
+                    </div>
+                </div>
             </section>
         </form>
     </div>
